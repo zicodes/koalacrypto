@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "koalaCrypto.js",
         "cursor": {
-          "lineNumber": 5,
-          "column": 3
+          "lineNumber": 8,
+          "column": 1
         },
         "config": {
           "runtime": "nodejs12.x",
@@ -71,7 +71,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1585009593111
+    "lastSave": 1585009932804
   },
   "VCS_STATE": {
     "provider": "GitHub",

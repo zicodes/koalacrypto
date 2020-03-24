@@ -3,3 +3,5 @@ exports.handler = async (event) => {
     let hash = bcrypt.hashSync('AFDSFJLASJFOIJQWOJFOIQJWOIFJQWJOIFJQWIO5236532462652ADFKLMSKDANFLWENLFJEWNTASJFL523523dassaddasKA532JFQfsadjkfasf', 12);
     return {"message": hash};
 };
+
+
