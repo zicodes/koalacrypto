@@ -1,0 +1,83 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "fba2e1e6-81e4-4f05-a4c8-31e4e40ff294": {
+        "id": "fba2e1e6-81e4-4f05-a4c8-31e4e40ff294",
+        "parent": null,
+        "name": "koalaCrypto.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "koalaCrypto.js",
+        "cursor": {
+          "lineNumber": 5,
+          "column": 3
+        },
+        "config": {
+          "runtime": "nodejs12.x",
+          "handler": "handler",
+          "timeout": 12,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [],
+        "testCases": {
+          "67e30861-af54-443a-bbfc-1f464ae72b94": {
+            "id": "67e30861-af54-443a-bbfc-1f464ae72b94",
+            "name": "Test event",
+            "functionId": "fba2e1e6-81e4-4f05-a4c8-31e4e40ff294",
+            "event": "{\"key1\": \"value1\", \"key2\": \"value2\", \"key3\": \"value3\"}",
+            "eventTemplate": "hello-world"
+          }
+        }
+      }
+    },
+    "openFiles": [
+      "fba2e1e6-81e4-4f05-a4c8-31e4e40ff294"
+    ],
+    "currentFileId": "fba2e1e6-81e4-4f05-a4c8-31e4e40ff294",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "bcrypt": {
+          "name": "bcrypt",
+          "version": "4.0.1",
+          "dev": false,
+          "language": "nodejs"
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "koalaCrypto",
+    "projectDescription": "koala crypto",
+    "projectVersion": "1.0.0",
+    "projectRegion": "eu-west-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1585009593111
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "koalacrypto",
+      "url": "https://github.com/zicodes/koalacrypto"
+    }
+  }
+}
